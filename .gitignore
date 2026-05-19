@@ -1,0 +1,5 @@
+*.html
+*.xml
+result/
+.DS_Store
+playwright-log.txt
