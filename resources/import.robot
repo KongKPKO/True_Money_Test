@@ -20,4 +20,4 @@ Resource    ${CURDIR}/../keywords/features/login_feature.robot
 Variables    ${CURDIR}/../resources/settings/setting.yaml
 
 #translation
-Variables    ${CURDIR}/../resources/translation/en.yaml
+Variables    ${CURDIR}/../resources/translation/${LANG.lower()}.yaml

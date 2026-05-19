@@ -21,18 +21,14 @@ Click login
     [Documentation]    Clicks the login button
     Browser.Click    selector=${login_locator.btn_log_in}
 
-Verify Login Error Message
-    [Documentation]    Verifies that login error message is displayed
-    Browser.Wait For Elements State    selector=${login_locator.lbl_error}    state=visible    timeout=5
+Verify logout message
+    [Documentation]    Verifies that the logout message is displayed
+    Browser.Wait for elements state    selector=${login_locator.lbl_logged_out_message}    state=visible    timeout=5
 
 Verify password invalid message
-    [Documentation]    Verifies that invalid password message is displayed
-    Browser.Wait For Elements State    selector=${login_locator.lbl_error}    state=visible    timeout=5
+    [Documentation]    Verifies that the password invalid message is displayed
+    Browser.Wait for elements state    selector=${login_locator.lbl_password_invalid_message}    state=visible    timeout=5
 
 Verify username invalid message
-    [Documentation]    Verifies that invalid username message is displayed
-    Browser.Wait For Elements State    selector=${login_locator.lbl_error}    state=visible    timeout=5
-
-Verify logout message
-    [Documentation]    Verifies that logout success message is displayed
-    Browser.Wait For Elements State    selector=${login_locator.lbl_success}    state=visible    timeout=5
+    [Documentation]    Verifies that the username invalid message is displayed
+    Browser.Wait for elements state    selector=${login_locator.lbl_username_invalid_message}    state=visible    timeout=5

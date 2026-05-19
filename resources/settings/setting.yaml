@@ -1,2 +1,3 @@
 WEBSITE_URL: https://the-internet.herokuapp.com/login
 HEADLESS: True
+LANG: en

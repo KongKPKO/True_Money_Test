@@ -1,8 +1,8 @@
 translation:
   log_in_page:
-    header: Login Page
-  btn_create_account: เข้าสู่ระบบ
-  ceramic_mug: Ceramic Mug
-  electronics: อิเล็กทรอนิกส์
-  earbuds: Bluetooth Earbuds
-  added_success: เพิ่มลงตะกร้าแล้ว
+    header: mock
+    logged_out_message: mock
+    password_invalid_message: mock
+    username_invalid_message: mock
+  secure_area_page:
+    logged_in_message: mock
