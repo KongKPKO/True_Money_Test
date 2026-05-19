@@ -1,8 +1,8 @@
 translation:
   log_in_page:
-    header: mock
-    logged_out_message: mock
-    password_invalid_message: mock
-    username_invalid_message: mock
+    header: Login Page
+    logged_out_message: You logged out of the secure area!
+    password_invalid_message: Your password is invalid!
+    username_invalid_message: Your username is invalid!
   secure_area_page:
-    logged_in_message: mock
+    logged_in_message: You logged into a secure area!
